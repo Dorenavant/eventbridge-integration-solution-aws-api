@@ -1,0 +1,35 @@
+{
+  "version": "0",
+  "region": "us-east-1",
+  "account": "123456789012",
+  "id": "4236e18e-f858-4e2b-a8e8-9b772525e0b2",
+  "source": "ecommerce",
+  "detail-type": "CreateOrder",
+  "resources": [],
+  "time": "2020-06-10T13:01:00Z",
+  "detail": {
+    "order_id": "ce4fe8b7-9911-4377-a795-29ecca9d7a3d",
+    "create_date": "2020-06-10T13:01:00Z",
+    "items": [
+      {
+        "product_id": "b8575571-5e91-4521-8a29-4af4a8aaa6f6",
+        "quantity": 1,
+        "price": "9.99",
+        "currency": "CAD"
+      }
+    ],
+    "customer": {
+      "customer_id": "5d22899e-3ff5-4ce0-a2a3-480cfce39a56"
+    },
+    "payment": {
+      "payment_id": "fb563473-bef4-4965-ad78-e37c6c9c0c2a"
+    },
+    "delivery_address": {
+      "street": "510 W Georgia St",
+      "city": "Vancouver" ,
+      "state": "BC",
+      "country": "Canada",
+      "zip_code": "V6B0M7"
+    }
+  }
+}
