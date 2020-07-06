@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eventbridge-integration-solution-aws-api
+  data:
+    mongodb:
+      uri:  "mongodb://localhost"
+      database: orders
+
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      base-path: "/"
+  endpoint:
+    health:
+      enabled: true
