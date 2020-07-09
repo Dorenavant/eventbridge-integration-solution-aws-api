@@ -50,6 +50,7 @@ const apiGateway = new ApiGatewayStack(app, 'EventsApiGateway', {
 apiGateway.addDependency(ecs);
 
 const events = new EventsStack(app, 'Events', {
+    description: 'eventbridge-integration-solution-aws-api\n(qs-1qpph5ffc)',
     restApi: apiGateway.restApi,
     apiGatewayArn: apiGateway.apiGatewayArn
 });
